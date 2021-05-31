@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Box from './Box';
 import NewBoxForm from './NewBoxForm';
 import { v4 as uuid } from 'uuid';
+import './BoxList.css'
 
 class BoxList extends Component {
 	constructor(props) {
@@ -49,8 +50,9 @@ class BoxList extends Component {
 	render() {
 		return (
 			<div className='BoxList'>
+				<h1>Colored Box Maker</h1>
 				<NewBoxForm addBox={this.addBox} key='boxForm' />
-				{this.renderBoxes()}
+				<div className='BoxList-Boxes'>{this.renderBoxes()}</div>
 			</div>
 		);
 	}
