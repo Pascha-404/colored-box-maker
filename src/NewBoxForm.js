@@ -37,6 +37,7 @@ class NewBoxForm extends Component {
 					id='width'
 					onChange={this.handleChange}
 					value={this.state.width}
+					placeholder='e.g. 50px, 50%, etc.'
 				/>
 				<label htmlFor='height'>Height</label>
 				<input
@@ -45,6 +46,7 @@ class NewBoxForm extends Component {
 					id='height'
 					onChange={this.handleChange}
 					value={this.state.height}
+					placeholder='e.g. 50px, 50%, etc.'
 				/>
 				<label htmlFor='backgroundColor'>Background-Color</label>
 				<input
@@ -53,6 +55,7 @@ class NewBoxForm extends Component {
 					id='backgroundColor'
 					onChange={this.handleChange}
 					value={this.state.backgroundColor}
+					placeholder='e.g. magenta'
 				/>
 				<button>Add Box!</button>
 			</form>
