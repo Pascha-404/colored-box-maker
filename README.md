@@ -1,3 +1,5 @@
+This is a simple box-maker-page for training and understanding the concept of state and props in React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
